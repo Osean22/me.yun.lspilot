@@ -53,9 +53,6 @@ LSPilot 要解决的三大痛点：
 | 功能 | 描述 |
 |------|------|
 | BeanShell (Java) | 兼容 Java 语法，可直接调用 Android API |
-| Lua | 轻量级 LuaJIT 引擎，适合快速编写调试脚本 |
-| JavaScript | Rhino 引擎，支持现代 JS 语法 |
-
 ---
 
 ## 安装说明
@@ -84,7 +81,7 @@ LSPilot 要解决的三大痛点：
 ## 常见问题
 
 **Q: 插件脚本如何编写？**
-> 插件存储在 `Android/media/<包名>/LSPilot/Plugin/` 目录下，支持 Java、Lua、JS 三种语言。创建插件后可直接在应用内编辑运行，目前暂无 API 文档。
+> 插件存储在 `Android/media/<包名>/LSPilot/Plugin/` 目录下，支持 Java、Lua、JS 三种语言。创建插件后可直接在应用内编辑运行，API 文档 lspilot.fun。
 
 **Q: 某些功能无法使用？**
 > 部分功能依赖于目标应用的版本和系统环境，请确保模块已正确激活并选择了适当的作用域。
@@ -94,4 +91,4 @@ LSPilot 要解决的三大痛点：
 ## 反馈与支持
 
 - Telegram 频道: [LSPilot](https://t.me/LSPilot)
-- QQ 群聊: [加入群聊](mqqapi://group/join_troop?src_type=internal&version=1&troop_uin=253461997&subsource_id=1030&is_need_jump_aio=1)
+- QQ 群聊: [加入群聊](https://qun.qq.com/universal-share/share?ac=1&authKey=1y82uRJ0yDCI1h%2ButTYOnQCHjUM0XTNK2msja%2F7fhJDHRDnrbJ87aM365RTUpNwm&busi_data=eyJncm91cENvZGUiOiIyNTM0NjE5OTciLCJ0b2tlbiI6Im1yQ0J1MGROUVBrSjI5am5PYTVnMEtYYUR1bS9QNzFkM05FM2hSK1BxeTNXTk4ybjJqYUFDcXArRVNrNC9HN2giLCJ1aW4iOiIzNDQ5NDk2NjUzIn0%3D&data=csdW7tAjnP1NfSlcJ4rQHoDv7I7wYdMAVNWHCHQL-wMr6oCo-PTswODqSC63KJkKuROfjRKGqwbbAujcCPgFCw&svctype=4&tempid=h5_group_info)
